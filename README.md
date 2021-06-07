@@ -36,4 +36,3 @@ stock
 Description
 Price
 
-can you hear?
