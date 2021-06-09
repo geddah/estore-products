@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.knockoff</groupId>
-	<artifactId>estore</artifactId>
+	<artifactId>estore-product-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>estore</name>
 	<description>initial service</description>
