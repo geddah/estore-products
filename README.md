@@ -1,4 +1,6 @@
-# estore-service
+# estore-products-service
+
+## CRUD Operations over PRODUCT table
 
 1. online store
 
@@ -35,5 +37,3 @@ Category
 stock
 Description
 Price
-
-can you hear?
