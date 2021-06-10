@@ -1,0 +1,17 @@
+
+type Product{
+	product_id: String
+	 name: String
+	make: String 
+	model: String
+	category: String 
+	stock: Int
+	description: String 
+	price:Float
+}
+
+type Query{
+	
+	product(id: String) : Product
+
+}
