@@ -14,17 +14,10 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>estore</name>
-	<description>initial service</description>
+	<description>Parent Module</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
-	<dependencies>
-		<dependency>
-			<groupId>com.knockoff</groupId>
-			<artifactId>foundation</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-	</dependencies>
 	<modules>
 		<module>estore-product-core-service</module>
 	</modules>
