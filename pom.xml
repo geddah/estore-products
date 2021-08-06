@@ -20,6 +20,7 @@
 	</properties>
 	<modules>
 		<module>estore-product-core-service</module>
+		<module>estore-product-variant-service</module>
 	</modules>
 	<build>
 		<plugins>
