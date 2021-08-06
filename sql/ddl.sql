@@ -57,3 +57,26 @@ CREATE TABLE product_variant
   weight_unit varchar(10),
   CONSTRAINT variant_id PRIMARY KEY (variant_id)
 );
+
+
+/* DROP TABLE */
+
+DROP TABLE product_image;
+
+
+
+/* CREATE TABLE */
+
+CREATE TABLE product_image
+(
+  created_at timestamp,
+  image_id bigint unsigned NOT NULL,
+  position bigint unsigned,
+  product_id bigint unsigned,
+  variant_id bigint unsigned,
+  src blob,
+  width bigint unsigned,
+  height bigint unsigned,
+  updated_at timestamp,
+  CONSTRAINT image_id PRIMARY KEY (image_id)
+);
