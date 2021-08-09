@@ -21,6 +21,8 @@
 	<modules>
 		<module>estore-product-core-service</module>
 		<module>estore-product-variant-service</module>
+		<module>estore-product-image-service</module>
+		<module>estore-product-domain</module>
 	</modules>
 	<build>
 		<plugins>

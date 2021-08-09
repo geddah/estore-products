@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: estore-product-core-service
+
+server:
+  port: 9100
