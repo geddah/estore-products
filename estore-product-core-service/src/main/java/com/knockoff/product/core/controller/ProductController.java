@@ -23,6 +23,9 @@ public class ProductController {
 
 	@GetMapping(value = "/{productId}", produces = MediaType.APPLICATION_JSON_VALUE)
 	public List<Product> getProduct(@PathVariable Long productId){
+		if(productId == 777l){
+			throw new RecordNotFoundException("Message", "777 magical number");
+		}
 		return productService.getProducts(productId);
 	}
 

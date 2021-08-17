@@ -3,6 +3,7 @@ package com.knockoff.product.core.service;
 import com.knockoff.product.core.repository.ProductRepository;
 import com.knockoff.product.domain.Product;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Collections;
@@ -13,6 +14,7 @@ import java.util.Optional;
 @Slf4j
 public class ProductService {
 
+    @Autowired
     private ProductRepository productRepository;
 
     public List<Product> getProducts(Long id) {

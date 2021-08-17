@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan( value = {"com.knockoff"})
+@ComponentScan( value = {"com.knockoff.product.core", "com.knockoff.product.domain"})
 public class EstoreProductCoreServiceApplication {
 
     public static void main(String[] args) {
